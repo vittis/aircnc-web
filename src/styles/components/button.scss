@@ -1,0 +1,16 @@
+.btn {
+    @apply border-0;
+    @apply rounded-sm;
+    @apply w-full;
+    @apply h-10;
+    @apply px-5;
+    @apply text-base;
+    @apply font-bold;
+    @apply bg-red-600;
+    @apply text-white;
+    @apply cursor-pointer;
+
+    &:hover {
+        @apply bg-red-700;
+    }
+}

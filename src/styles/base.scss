@@ -1,0 +1,22 @@
+h1 {
+    @apply text-2xl;
+}
+h2 {
+    @apply text-xl;
+}
+h3 {
+    @apply text-lg;
+}
+a {
+    @apply text-blue-600 underline;
+}
+
+html, body, #root {
+    min-height: 100%;
+}
+
+body {
+    background: #000 url('../assets/background.jpg') no-repeat;
+    background-size: cover;
+    -webkit-font-smoothing: antialiased !important;
+}
